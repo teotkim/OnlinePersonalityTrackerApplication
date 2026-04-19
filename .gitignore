@@ -1,0 +1,17 @@
+# secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# app data
+rag.db
+error.log
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
