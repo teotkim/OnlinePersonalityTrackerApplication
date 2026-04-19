@@ -1,0 +1,94 @@
+[agent] Monitor started.
+[inference error] Traceback (most recent call last):
+  File "C:\Users\1samb\VSCode\newPersonality\main.py", line 37, in inference_loop
+    profile = infer(context)
+              ^^^^^^^^^^^^^^
+  File "C:\Users\1samb\VSCode\newPersonality\personality.py", line 37, in infer
+    resp = ollama.chat(
+           ^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 365, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 189, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 133, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model 'llama3' not found (status code: 404)
+
+[agent] Monitor started.
+[agent] Monitor started.
+[inference error] Traceback (most recent call last):
+  File "C:\Users\1samb\VSCode\newPersonality\main.py", line 37, in inference_loop
+    profile = infer(context)
+              ^^^^^^^^^^^^^^
+  File "C:\Users\1samb\VSCode\newPersonality\personality.py", line 37, in infer
+    resp = ollama.chat(
+           ^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 365, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 189, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 135, in _request_raw
+    raise ConnectionError(CONNECTION_ERROR_MESSAGE) from None
+ConnectionError: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+
+[inference error] Traceback (most recent call last):
+  File "C:\Users\1samb\VSCode\newPersonality\main.py", line 37, in inference_loop
+    profile = infer(context)
+              ^^^^^^^^^^^^^^
+  File "C:\Users\1samb\VSCode\newPersonality\personality.py", line 37, in infer
+    resp = ollama.chat(
+           ^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 365, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 189, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 135, in _request_raw
+    raise ConnectionError(CONNECTION_ERROR_MESSAGE) from None
+ConnectionError: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+
+[agent] Monitor started.
+[agent] Monitor started.
+[agent] Monitor started.
+[inference error] Traceback (most recent call last):
+  File "C:\Users\1samb\VSCode\newPersonality\main.py", line 37, in inference_loop
+    profile = infer(context)
+              ^^^^^^^^^^^^^^
+  File "C:\Users\1samb\VSCode\newPersonality\personality.py", line 37, in infer
+    resp = ollama.chat(
+           ^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 365, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 189, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 135, in _request_raw
+    raise ConnectionError(CONNECTION_ERROR_MESSAGE) from None
+ConnectionError: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+
+[inference error] Traceback (most recent call last):
+  File "C:\Users\1samb\VSCode\newPersonality\main.py", line 37, in inference_loop
+    profile = infer(context)
+              ^^^^^^^^^^^^^^
+  File "C:\Users\1samb\VSCode\newPersonality\personality.py", line 37, in infer
+    resp = ollama.chat(
+           ^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 365, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 189, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\1samb\AppData\Roaming\Python\Python312\site-packages\ollama\_client.py", line 135, in _request_raw
+    raise ConnectionError(CONNECTION_ERROR_MESSAGE) from None
+ConnectionError: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+
+[agent] Monitor started.
+[agent] Monitor started.
+[agent] Monitor started.
